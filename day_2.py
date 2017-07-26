@@ -9,7 +9,7 @@ def hello(name):
 name = input("What is your name?\n")
 hello(name)
 
-# Flow Statements
+# Flow statements
 def password(input, code):
     if input == code:
         return "Unlocked"
