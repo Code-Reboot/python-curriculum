@@ -36,7 +36,7 @@ def order():
         print("Add cheese? [y / n]")
         option = input("-> ")
 
-        if option == "y" or option == "Y" or option == "yes" or option == "Yes":
+        if "y" in option or "Y" in option:
             subtotal += 0.50
             order_list.append("Hamburger w/ Cheese")
 
